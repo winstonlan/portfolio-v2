@@ -30,6 +30,9 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+hr {
+  border-top: 3px solid #345B5E;
+}
 hr.star-light,
 hr.star-primary {
   padding: 0;
@@ -181,8 +184,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
+  background: white;
+  color: #354B5E;
 }
 @media (max-width: 767px) {
   section {
